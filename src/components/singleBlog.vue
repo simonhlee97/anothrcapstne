@@ -23,7 +23,7 @@ export default {
         }
     },
     created() {
-        this.$http.get('https://leecapstone-12830.firebaseio.com/posts/' + this.id + '.json').then(function(data){
+        this.$http.get('https://simoncapstone1150.firebaseio.com/posts/' + this.id + '.json').then(function(data){
             return data.json();
         }).then(function(data){
             this.blog = data;
