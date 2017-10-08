@@ -4,6 +4,8 @@
             <li><router-link to="/" exact>SportsPress</router-link></li>
             <li><router-link to="/all" exact>See All</router-link></li>
             <li><router-link to="/add" exact>Add New Story</router-link></li>
+            <li><router-link to="/Login" exact>Login</router-link></li>
+            <li><router-link to="/signup" exact>Sign Up</router-link></li>
         </ul>
     </nav>
 </template>
@@ -29,7 +31,7 @@ a{
     border-radius: 5px;
 }
 nav{
-    background: crimson;
+    background: navy;
     padding: 30px 0;
     margin-bottom: 40px;
 }

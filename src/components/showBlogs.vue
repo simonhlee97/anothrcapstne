@@ -46,14 +46,14 @@ export default {
     padding: 20px;
     margin: 20px 0;
     box-sizing: border-box;
-    background: crimson;
+    background: navy;
     border: 1px dotted #aaa;
 }
 #show-blogs a:hover{
     color: white;
 }
 #show-blogs a{
-    color: black;
+    color: #dbe8fc;
     text-decoration: none;
 }
 input[type="text"]{

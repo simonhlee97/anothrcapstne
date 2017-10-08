@@ -3,14 +3,27 @@
 import Vue from 'vue'
 import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
-import App from './App.vue'
+import App from './App'
 import Routes from './routes'
+import firebase from 'firebase'
 
+Vue.config.productionTip = false
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBGnUXjCum8WeNH1Guom7EvEzFCNwoHAeE",
+    authDomain: "simoncapstone1150.firebaseapp.com",
+    databaseURL: "https://simoncapstone1150.firebaseio.com",
+    projectId: "simoncapstone1150",
+    storageBucket: "simoncapstone1150.appspot.com",
+    messagingSenderId: "337634294014"
+  };
+
+  firebase.initializeApp(config);
 
 // Use packages
 Vue.use(VueResource);
 Vue.use(VueRouter);
-
 
 // Register routes
 const router = new VueRouter({
