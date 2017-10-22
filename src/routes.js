@@ -1,9 +1,9 @@
 import addBlog from './components/addBlog.vue';
 import showBlogs from './components/showBlogs.vue';
 import singleBlog from './components/singleBlog.vue';
-import splash from './components/splash.vue';
 import Login from './components/Login';
 import signup from './components/signup.vue';
+import splash from './components/splash.vue';
 
 export default [
 		{	path: '*',
@@ -38,7 +38,7 @@ export default [
 	    	component: singleBlog
 	    },
 	    { 
-	    	path: '/',
+	    	path: '/splash',
 	    	name: 'splash',
 	    	component: splash
 	    },
