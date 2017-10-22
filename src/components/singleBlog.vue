@@ -37,7 +37,7 @@ export default {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background: crimson;
+    background: navy;
     border: 1px dotted #aaa;
 }
 </style>

@@ -106,7 +106,7 @@ hr{
 button{
     display: block;
     margin: 20px 0;
-    background: crimson;
+    background: navy;
     color: #fff;
     border: 0;
     padding: 14px;

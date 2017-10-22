@@ -7,7 +7,7 @@
 
 <script>
 // Imports
-import showBlogs from './components/showBlogs.vue';
+//import showBlogs from './components/showBlogs.vue';
 import header from './components/header.vue';
 
 export default {
