@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li><router-link to="/" exact>SportsPress</router-link></li>
+            <li><router-link to="/splash" exact>SportsPress</router-link></li>
             <li><router-link to="/all" exact>See All</router-link></li>
             <li><router-link to="/add" exact>Add New Story</router-link></li>
             <li><router-link to="/Login" exact>Login</router-link></li>

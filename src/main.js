@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import App from './App'
 import Routes from './routes'
 import firebase from 'firebase'
+import Vuetify from 'vuetify'
 
 Vue.config.productionTip = false
 
@@ -24,6 +25,7 @@ Vue.config.productionTip = false
 // Use packages
 Vue.use(VueResource);
 Vue.use(VueRouter);
+Vue.use(Vuetify);
 
 // Register routes
 const router = new VueRouter({
